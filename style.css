@@ -1,0 +1,7 @@
+/* .bg{
+    background-image:url(https://bootstraptemplatedesign.com/demo-application/overux/bootstrap_dashboard_html/img/background.png);
+    background-size:cover;
+} */
+::-webkit-scrollbar {
+    display: none;
+}
