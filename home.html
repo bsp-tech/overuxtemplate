@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Overux</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <style>
+    	.comments img, .user1{
+			height: 80px;
+    	}
+
+		.diagram{
+			height: 30px;
+		}
+
+		.industry{
+			height: 270px;
+		}
+
+		.user{
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 60px;
+		}
+    </style>
+</head>
+<body class="bg-light">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 mt-5">
+				<p class="text-uppercase font-weight-bold text-primary">Welcome,</p>
+				<h1>
+					<span class="font-weight-light small">Good Morning</span><br>
+					<b class="text-primary">John</b>
+				</h1>
+				<div id="carousel1" class="carousel slide m-3" data-ride="carousel">
+				    <div class="carousel-inner">
+				        <div class="carousel-item active" data-interval="3000">
+					        <div class="card-deck">
+					            <div class="card col-lg-6 shadow">                    
+						            <div class="card-body">
+						            	<div class="text-primary mb-3">Project</div>
+						            	<h5 class="font-weight-bold">Completed</h5> 
+						            	<small class="mb-4">November 2018</small>
+						            	<div data-class="d-flex justify-content-between">
+							            	<p class="d-inline">6/8 Project</p> 
+							            	<span><i class="fas fa-circle-notch float-right"></i></span>
+						                </div>                        
+						            </div>                   
+					            </div>
+					            <div class="card col-lg-6 shadow">                    
+					              <div class="card-body">
+					                <div class="text-primary mb-3">Project</div>
+					                <h5 class="font-weight-bold">Overrun</h5> 
+					                <small class="mb-4">November 2018</small>
+					                <div data-class="d-flex justify-content-between">
+					                  <p class="d-inline">2/3 Project</p> 
+					                  <span><i class="fas fa-circle-notch float-right"></i></span>
+					                </div>                        
+					              </div>                   
+					            </div>
+				            </div>
+				        </div>
+				        <div class="carousel-item" data-interval="3000">
+					        <div class="card-deck text-light">
+					            <div class="card col-lg-6 bg-info shadow">                    
+						            <div class="card-body">
+						            	<div class="mb-3">Project</div>
+						            	<h5 class="font-weight-bold">Completed</h5> 
+						            	<small class="mb-4">November 2018</small>
+						            	<div data-class="d-flex justify-content-between">
+							            	<p class="d-inline">6/8 Project</p> 
+							            	<span><i class="fas fa-circle-notch float-right"></i></span>
+						                </div>                        
+						            </div>                   
+					            </div>
+					            <div class="card col-lg-6 bg-danger shadow">                    
+					              <div class="card-body">
+					                <div class="mb-3">Project</div>
+					                <h5 class="font-weight-bold">Overrun</h5> 
+					                <small class="mb-4">November 2018</small>
+					                <div data-class="d-flex justify-content-between">
+					                  <p class="d-inline">2/3 Project</p> 
+					                  <span><i class="fas fa-circle-notch float-right"></i></span>
+					                </div>                        
+					              </div>                   
+					            </div>
+				            </div>
+				        </div>
+				        <div class="carousel-item text-light" data-interval="3000">
+					        <div class="card-deck">
+					            <div class="card col-lg-6 bg-warning shadow">                    
+						            <div class="card-body">
+						            	<div class="mb-3">Project</div>
+						            	<h5 class="font-weight-bold">Completed</h5> 
+						            	<small class="mb-4">November 2018</small>
+						            	<div data-class="d-flex justify-content-between">
+							            	<p class="d-inline">6/8 Project</p> 
+							            	<span><i class="fas fa-circle-notch float-right"></i></span>
+						                </div>                        
+						            </div>                   
+					            </div>
+					            <div class="card col-lg-6 bg-success shadow">                    
+					              <div class="card-body text-light">
+					                <div class="mb-3">Project</div>
+					                <h5 class="font-weight-bold">Overrun</h5> 
+					                <small class="mb-4">November 2018</small>
+					                <div data-class="d-flex justify-content-between">
+					                  <p class="d-inline">2/3 Project</p> 
+					                  <span><i class="fas fa-circle-notch float-right"></i></span>
+					                </div>                        
+					              </div>                   
+					            </div>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+				<div class="carousel text-center">
+					<button class="btn btn-info rounded-pill shadow-lg">GO TO DASHBOARD</button>
+				</div>
+				<div class="features">
+					<p class="text-uppercase">Features</p>
+					<div class="card rounded p-2">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<h5>
+									<i class="fas fa-star text-warning"></i>
+									50+ Unique Pages
+								</h5>
+								<small class="text-secondary">Creative Design with great user experience and user interaction. Built based on robust framework and will be devliver consistancy.</small>
+							</li>
+							<li class="list-group-item text-right">
+								<h5>
+									Save time ready to use
+									<i class="far fa-clock text-danger"></i>
+								</h5>
+								<small class="text-secondary">Creative Design with great user experience and user interaction. Built based on robust framework and will be devliver consistancy.</small>
+							</li>
+							<li class="list-group-item">
+								<h5>
+									<i class="fas fa-money-check-alt text-success"></i>
+									Creative Design
+								</h5>
+								<small class="text-secondary">Creative Design with great user experience and user interaction. Built based on robust framework and will be devliver consistancy.</small>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="highlights mt-4">
+					<p class="text-uppercase">Highlights</p>
+					<div class="card rounded">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Dashboard</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Widgets</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Sign in</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Intro</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Projects</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Produts</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Chat</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Error</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Map</span>
+							</li>
+							<li class="list-group-item">
+								<i class="fas fa-check text-primary"></i>
+								<span>Menus & more</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="text-secondary text-uppercase text-center font-weight-bold my-4">Know More</div>
+				<h2 class="text-center mb-4">Our Services</h2>
+				<div class="row text-center bg-white m-0">
+					<div class="col-6 border py-3">
+						<h1 class="text-primary font-weight-bold"><i class="fab fa-500px"></i></h1>
+						<h5>UX Design</h5>
+						<p>Creative Design with great user experience and user interaction.</p>
+					</div>
+					<div class="col-6 border py-3">
+						<h1 class="text-primary font-weight-bold"><i class="fas fa-eye"></i></h1>
+						<h5>UI Design</h5>
+						<p>Creative Design with great user experience and user interaction.</p>
+					</div>
+					<div class="col-6 border py-3">
+						<h1 class="text-primary font-weight-bold"><i class="fas fa-laptop"></i></h1>
+						<h5>Web Design</h5>
+						<p>Creative Design with great user experience and user interaction.</p>
+					</div>
+					<div class="col-6 border py-3">
+						<h1 class="text-primary font-weight-bold"><i class="far fa-grin"></i></h1>
+						<h5>Logo Design</h5>
+						<p>Creative Design with great user experience and user interaction.</p>
+					</div>
+				</div>
+				<div class="contrast my-4">
+					<p class="text-uppercase">Contrast</p>
+					<div class="card">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item bg-dark">
+								<h5 class="text-light">50+ Unique Pages</h5>
+								<p class="text-light">Creative Design with great user experience and user interaction. Built based on robust framework and will be devliver consistancy.</p>
+							</li>
+							<li class="list-group-item text-right bg-primary">
+								<h5 class="text-light">Save time ready to use</h5>
+								<p class="text-light">Creative Design with great user experience and user interaction. Built based on robust framework and will be devliver consistancy.</p>
+							</li>
+							<li class="list-group-item text-center bg-secondary">
+								<h5 class="text-light">Creative Design</h5>
+								<p class="text-light">Creative Design with great user experience and user interaction. Built based on robust framework and will be devliver consistancy.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="comments">
+					<p class="text-uppercase">Latest Comments</p>
+					<div class="card shadow-lg">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<a href="#" class="media text-dark text-decoration-none">
+									<img src="https://bootstraptemplatedesign.com/demo-application/overux/bootstrap_dashboard_html/img/user1.png" class="rounded">
+									<span class="media-body ml-2">
+										<h5>John Doe <i class="fa fa-circle text-success small"></i></h5>
+										<small>Date: 18-12-2018</small>
+										<p>My view is to create greate things</p>
+									</span>
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#" class="media text-dark text-decoration-none">
+									<img src="https://bootstraptemplatedesign.com/demo-application/overux/bootstrap_dashboard_html/img/user2.png" class="rounded">
+									<span class="media-body ml-2">
+										<h5>Angelina Hardy <i class="fa fa-circle text-warning small"></i></h5>
+										<small>Date: 18-12-2018</small>
+										<p>My view is to create greate things</p>
+									</span>
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#" class="media text-dark text-decoration-none">
+									<img src="https://bootstraptemplatedesign.com/demo-application/overux/bootstrap_dashboard_html/img/user3.png" class="rounded">
+									<span class="media-body ml-2">
+										<h5>Arnold Johnsons <i class="fa fa-circle text-danger small"></i></h5>
+										<small>Date: 18-12-2018</small>
+										<p>My view is to create greate things</p>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row my-4 text-center border-bottom pb-4">
+					<div class="col-6 col-md-4 col-lg-2">
+						<div class="card rounded shadow-lg">
+							<div class="card-body">
+								<div class="card-title">Today</div>
+								<div class="card-text">
+									<img src="./img/diagram.png" class="diagram my-3">
+									<h2>$1560</h2>
+								</div>
+								<div class="text-success">
+									2hrs <i class="fas fa-caret-up"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-4 col-lg-2">
+						<div class="card rounded shadow-lg">
+							<div class="card-body">
+								<div class="card-title">Yesterday</div>
+								<div class="card-text">
+									<img src="./img/diagram.png" class="diagram my-3">
+									<h2>$2150</h2>
+								</div>
+								<div class="text-danger">
+									2hrs <i class="fas fa-caret-down"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="text-uppercase text-center">About us</p>
+				<h2 class="text-center">We are Overux</h2>
+				<div class="row">
+					<div class="col-7 col-md-8 col-lg-10">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+						<br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-5 col-md-4 col-lg-2">
+						<div class="card text-white">
+							<img src="https://bootstraptemplatedesign.com/demo-application/overux/bootstrap_dashboard_html/img/city2.jpg" class="industry rounded position-relative">
+							<h4 class="position-absolute m-3">We are</h4>
+							<div class="user position-absolute"><i class="fas fa-user"></i></div>
+						</div>
+					</div>
+				</div>
+				<div class="row my-4">
+					<div class="col-12">
+						<div class="card shadow-lg">
+							<div class="card-body">
+								<a href="#" class="media text-decoration-none text-dark">
+									<img src="https://bootstraptemplatedesign.com/demo-application/overux/bootstrap_dashboard_html/img/user1.png" class="user1 rounded">
+									<span class="media-body ml-2">
+										<h4>"We've never seen the things work like this much smoother"</h4>
+									</span>
+								</a>
+								<small class="mt-3 mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer my-3">
+					<div class="row">
+						<div class="col-12">
+							<div class="card shadow-lg">
+								<div class="card-header pb-0 d-flex justify-content-between">
+									<p>Overux</p>
+									<div class="social text-secondary d-flex">
+										<h3><i class="fab fa-facebook-square mx-1"></i></h3>
+										<h3><i class="fab fa-google-plus-square mx-1"></i></h3>
+										<h3><i class="fab fa-linkedin mx-1"></i></h3>
+										<h3><i class="fab fa-twitter-square mx-1"></i></h3>
+									</div>
+								</div>
+								<div class="card-body bg-primary text-center text-white">
+									Copyright @2018, Maxartkiller
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
